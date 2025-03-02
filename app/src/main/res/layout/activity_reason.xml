@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall7"
+    tools:context=".ReasonActivity">
+
+    <TextView
+        android:id="@+id/nameDeclareee"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="hello haneef,"
+        android:textColor="#F8F6F6"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/counterrr"
+        android:layout_width="245dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="132dp"
+        android:background="@android:drawable/gallery_thumb"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#FDFDFD"
+        android:textSize="85sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameDeclareee" />
+
+    <Button
+        android:id="@+id/tappppp"
+        android:layout_width="212dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="96dp"
+        android:text="Tap"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/resetttt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/resetttt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="92dp"
+        android:text="Reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
